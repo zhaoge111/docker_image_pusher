@@ -5,8 +5,13 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
---platform=linux/amd64 kubernetesui/metrics-scraper:latest
---platform=linux/amd64 vllm/vllm-openai:v0.9.0.1
+#--platform=linux/amd64 kubernetesui/metrics-scraper:latest
+#--platform=linux/amd64 vllm/vllm-openai:v0.9.0.1
 
---platform=linux/amd64 prom/prometheus:v3.4.1
---platform=linux/amd64 grafana/grafana:12.0.1
+#--platform=linux/amd64 prom/prometheus:v3.4.1
+#--platform=linux/amd64 grafana/grafana:12.0.1
+
+ghcr.io/huggingface/text-embeddings-inference:1.7
+ghcr.io/huggingface/text-embeddings-inference:turing-1.7
+ghcr.io/huggingface/text-embeddings-inference:86-1.7
+ghcr.io/huggingface/text-embeddings-inference:89-1.7

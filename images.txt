@@ -6,7 +6,7 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 
 #--platform=linux/amd64 kubernetesui/metrics-scraper:latest
-#--platform=linux/amd64 vllm/vllm-openai:v0.9.0.1
+--platform=linux/amd64 vllm/vllm-openai:v0.10.0
 
 #--platform=linux/amd64 prom/prometheus:v3.4.1
 #--platform=linux/amd64 grafana/grafana:12.0.1
@@ -19,4 +19,4 @@
 #--platform=linux/amd64 alpine/ansible:2.17.0
 #--platform=linux/arm64 alpine/ansible:2.17.0
 
---platform=linux/amd64  ghcr.io/ggerganov/llama.cpp:server-cuda
+#--platform=linux/amd64  ghcr.io/ggerganov/llama.cpp:server-cuda

@@ -16,5 +16,7 @@
 #ghcr.io/huggingface/text-embeddings-inference:86-1.7
 #ghcr.io/huggingface/text-embeddings-inference:89-1.7
 
---platform=linux/amd64 alpine/ansible:2.17.0
---platform=linux/arm64 alpine/ansible:2.17.0
+#--platform=linux/amd64 alpine/ansible:2.17.0
+#--platform=linux/arm64 alpine/ansible:2.17.0
+
+--platform=linux/amd64  ghcr.io/ggerganov/llama.cpp:server-cuda

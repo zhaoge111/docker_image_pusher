@@ -20,3 +20,5 @@
 #--platform=linux/arm64 alpine/ansible:2.17.0
 
 #--platform=linux/amd64  ghcr.io/ggerganov/llama.cpp:server-cuda
+
+--platform=arm64 quay.io/ascend/vllm-ascend:v0.10.0rc1-310p-openeuler

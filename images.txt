@@ -6,7 +6,8 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 
 #--platform=linux/amd64 kubernetesui/metrics-scraper:latest
---platform=linux/amd64 vllm/vllm-openai:v0.10.0
+--platform=linux/amd64 vllm/vllm-openai:v0.16.0
+--platform=linux/amd64 vllm/vllm-openai:qwen3_5
 
 #--platform=linux/amd64 prom/prometheus:v3.4.1
 #--platform=linux/amd64 grafana/grafana:12.0.1
@@ -21,4 +22,4 @@
 
 #--platform=linux/amd64  ghcr.io/ggerganov/llama.cpp:server-cuda
 
---platform=arm64 quay.io/ascend/vllm-ascend:v0.10.0rc1-310p-openeuler
+#--platform=arm64 quay.io/ascend/vllm-ascend:v0.10.0rc1-310p-openeuler
